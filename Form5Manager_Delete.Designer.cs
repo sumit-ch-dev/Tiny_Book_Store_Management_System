@@ -35,14 +35,13 @@ namespace Tiny_Book_Store_Management_System
             this.label1 = new System.Windows.Forms.Label();
             this.Back = new System.Windows.Forms.Button();
             this.dms = new System.Windows.Forms.Label();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.logout = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(430, 313);
+            this.textBox1.Location = new System.Drawing.Point(524, 274);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(232, 29);
             this.textBox1.TabIndex = 23;
@@ -53,7 +52,7 @@ namespace Tiny_Book_Store_Management_System
             this.label1Manager_Id.AutoSize = true;
             this.label1Manager_Id.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1Manager_Id.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.label1Manager_Id.Location = new System.Drawing.Point(244, 317);
+            this.label1Manager_Id.Location = new System.Drawing.Point(331, 278);
             this.label1Manager_Id.Name = "label1Manager_Id";
             this.label1Manager_Id.Size = new System.Drawing.Size(171, 25);
             this.label1Manager_Id.TabIndex = 22;
@@ -63,7 +62,7 @@ namespace Tiny_Book_Store_Management_System
             // button1Delete
             // 
             this.button1Delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1Delete.Location = new System.Drawing.Point(430, 383);
+            this.button1Delete.Location = new System.Drawing.Point(392, 340);
             this.button1Delete.Name = "button1Delete";
             this.button1Delete.Size = new System.Drawing.Size(110, 30);
             this.button1Delete.TabIndex = 20;
@@ -76,16 +75,17 @@ namespace Tiny_Book_Store_Management_System
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.label1.Location = new System.Drawing.Point(376, 138);
+            this.label1.Location = new System.Drawing.Point(379, 161);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(362, 39);
+            this.label1.Size = new System.Drawing.Size(337, 39);
             this.label1.TabIndex = 24;
-            this.label1.Text = "Exclude the Manager";
+            this.label1.Text = "Delete the Manager";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Back
             // 
             this.Back.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Back.Location = new System.Drawing.Point(546, 383);
+            this.Back.Location = new System.Drawing.Point(555, 340);
             this.Back.Name = "Back";
             this.Back.Size = new System.Drawing.Size(110, 30);
             this.Back.TabIndex = 20;
@@ -104,20 +104,12 @@ namespace Tiny_Book_Store_Management_System
             this.dms.TabIndex = 22;
             this.dms.Click += new System.EventHandler(this.label1Manager_Id_Click);
             // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.LightGray;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(43, 180);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1015, 10);
-            this.flowLayoutPanel1.TabIndex = 25;
-            // 
             // logout
             // 
             this.logout.BackColor = System.Drawing.Color.CadetBlue;
             this.logout.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.logout.Location = new System.Drawing.Point(483, 444);
+            this.logout.Location = new System.Drawing.Point(487, 481);
             this.logout.Name = "logout";
             this.logout.Size = new System.Drawing.Size(120, 36);
             this.logout.TabIndex = 28;
@@ -129,10 +121,9 @@ namespace Tiny_Book_Store_Management_System
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Desktop;
-            this.ClientSize = new System.Drawing.Size(1084, 761);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(1084, 752);
             this.Controls.Add(this.logout);
-            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dms);
@@ -154,7 +145,6 @@ namespace Tiny_Book_Store_Management_System
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Back;
         private System.Windows.Forms.Label dms;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button logout;
     }
 }

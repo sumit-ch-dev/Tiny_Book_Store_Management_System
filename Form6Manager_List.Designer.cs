@@ -32,7 +32,6 @@ namespace Tiny_Book_Store_Management_System
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.logout = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -40,7 +39,7 @@ namespace Tiny_Book_Store_Management_System
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(376, 673);
+            this.button1.Location = new System.Drawing.Point(392, 656);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(251, 35);
             this.button1.TabIndex = 1;
@@ -50,8 +49,9 @@ namespace Tiny_Book_Store_Management_System
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Info;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(48, 162);
+            this.dataGridView1.Location = new System.Drawing.Point(49, 115);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(976, 486);
             this.dataGridView1.TabIndex = 2;
@@ -62,26 +62,18 @@ namespace Tiny_Book_Store_Management_System
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.label1.Location = new System.Drawing.Point(390, 56);
+            this.label1.Location = new System.Drawing.Point(414, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(229, 39);
             this.label1.TabIndex = 3;
             this.label1.Text = "Manager List";
             // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.LightGray;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(30, 105);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1015, 10);
-            this.flowLayoutPanel1.TabIndex = 8;
-            // 
             // logout
             // 
-            this.logout.BackColor = System.Drawing.Color.CadetBlue;
+            this.logout.BackColor = System.Drawing.Color.SeaGreen;
             this.logout.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.logout.Location = new System.Drawing.Point(435, 714);
+            this.logout.ForeColor = System.Drawing.Color.Red;
+            this.logout.Location = new System.Drawing.Point(938, 655);
             this.logout.Name = "logout";
             this.logout.Size = new System.Drawing.Size(120, 36);
             this.logout.TabIndex = 28;
@@ -93,10 +85,9 @@ namespace Tiny_Book_Store_Management_System
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Desktop;
-            this.ClientSize = new System.Drawing.Size(1084, 761);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(1084, 752);
             this.Controls.Add(this.logout);
-            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
@@ -113,7 +104,6 @@ namespace Tiny_Book_Store_Management_System
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button logout;
     }
 }

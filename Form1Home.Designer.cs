@@ -64,7 +64,7 @@ namespace Tiny_Book_Store_Management_System
             // button2Manager
             // 
             this.button2Manager.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2Manager.Location = new System.Drawing.Point(602, 375);
+            this.button2Manager.Location = new System.Drawing.Point(614, 375);
             this.button2Manager.Name = "button2Manager";
             this.button2Manager.Size = new System.Drawing.Size(110, 39);
             this.button2Manager.TabIndex = 1;
@@ -75,7 +75,7 @@ namespace Tiny_Book_Store_Management_System
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Tiny_Book_Store_Management_System.Properties.Resources.Manager;
-            this.pictureBox2.Location = new System.Drawing.Point(530, 178);
+            this.pictureBox2.Location = new System.Drawing.Point(614, 178);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(242, 153);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -97,7 +97,7 @@ namespace Tiny_Book_Store_Management_System
             this.exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exit.ForeColor = System.Drawing.Color.Red;
-            this.exit.Location = new System.Drawing.Point(429, 468);
+            this.exit.Location = new System.Drawing.Point(464, 463);
             this.exit.Name = "exit";
             this.exit.Size = new System.Drawing.Size(113, 35);
             this.exit.TabIndex = 3;

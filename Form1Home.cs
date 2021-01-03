@@ -35,7 +35,7 @@ namespace Tiny_Book_Store_Management_System
 
         private void Form1Home_Load(object sender, EventArgs e)
         {
-
+            //throw new NotImplementedException();
         }
 
         private void exit_Click(object sender, EventArgs e)

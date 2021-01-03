@@ -44,7 +44,7 @@ namespace Tiny_Book_Store_Management_System
             this.label1LogInAs.AutoSize = true;
             this.label1LogInAs.BackColor = System.Drawing.SystemColors.ControlLight;
             this.label1LogInAs.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1LogInAs.Location = new System.Drawing.Point(194, 224);
+            this.label1LogInAs.Location = new System.Drawing.Point(185, 103);
             this.label1LogInAs.Name = "label1LogInAs";
             this.label1LogInAs.Size = new System.Drawing.Size(137, 31);
             this.label1LogInAs.TabIndex = 0;
@@ -53,7 +53,7 @@ namespace Tiny_Book_Store_Management_System
             // button1Admin
             // 
             this.button1Admin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1Admin.Location = new System.Drawing.Point(250, 483);
+            this.button1Admin.Location = new System.Drawing.Point(254, 375);
             this.button1Admin.Name = "button1Admin";
             this.button1Admin.Size = new System.Drawing.Size(110, 39);
             this.button1Admin.TabIndex = 1;
@@ -64,7 +64,7 @@ namespace Tiny_Book_Store_Management_System
             // button2Manager
             // 
             this.button2Manager.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2Manager.Location = new System.Drawing.Point(612, 483);
+            this.button2Manager.Location = new System.Drawing.Point(602, 375);
             this.button2Manager.Name = "button2Manager";
             this.button2Manager.Size = new System.Drawing.Size(110, 39);
             this.button2Manager.TabIndex = 1;
@@ -75,7 +75,7 @@ namespace Tiny_Book_Store_Management_System
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Tiny_Book_Store_Management_System.Properties.Resources.Manager;
-            this.pictureBox2.Location = new System.Drawing.Point(557, 302);
+            this.pictureBox2.Location = new System.Drawing.Point(530, 178);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(242, 153);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -85,7 +85,7 @@ namespace Tiny_Book_Store_Management_System
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Tiny_Book_Store_Management_System.Properties.Resources.Admin;
-            this.pictureBox1.Location = new System.Drawing.Point(191, 302);
+            this.pictureBox1.Location = new System.Drawing.Point(191, 178);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(242, 153);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -96,8 +96,8 @@ namespace Tiny_Book_Store_Management_System
             // 
             this.exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.exit.Location = new System.Drawing.Point(440, 620);
+            this.exit.ForeColor = System.Drawing.Color.Red;
+            this.exit.Location = new System.Drawing.Point(429, 468);
             this.exit.Name = "exit";
             this.exit.Size = new System.Drawing.Size(113, 35);
             this.exit.TabIndex = 3;
@@ -109,8 +109,8 @@ namespace Tiny_Book_Store_Management_System
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Desktop;
-            this.ClientSize = new System.Drawing.Size(1084, 761);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(1084, 752);
             this.Controls.Add(this.exit);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);

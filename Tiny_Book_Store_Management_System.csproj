@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{22A6A576-3A15-46E7-8D06-214B6B723593}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Tiny_Book_Store_Management_System</RootNamespace>
+    <AssemblyName>Tiny_Book_Store_Management_System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="connection.cs" />
+    <Compile Include="Form10Delete_Book_Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10Delete_Book_Stock.Designer.cs">
+      <DependentUpon>Form10Delete_Book_Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12AdminTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12AdminTask.Designer.cs">
+      <DependentUpon>Form12AdminTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13_View_All_books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13_View_All_books.Designer.cs">
+      <DependentUpon>Form13_View_All_books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1Home.Designer.cs">
+      <DependentUpon>Form1Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2Admin_Log_In.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2Admin_Log_In.Designer.cs">
+      <DependentUpon>Form2Admin_Log_In.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3Manager_Log_In.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3Manager_Log_In.Designer.cs">
+      <DependentUpon>Form3Manager_Log_In.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4New_Manager_Entry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4New_Manager_Entry.Designer.cs">
+      <DependentUpon>Form4New_Manager_Entry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5Manager_Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5Manager_Delete.Designer.cs">
+      <DependentUpon>Form5Manager_Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6Manager_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6Manager_List.Designer.cs">
+      <DependentUpon>Form6Manager_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7New_Book_Entry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7New_Book_Entry.Designer.cs">
+      <DependentUpon>Form7New_Book_Entry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8Update_Book_Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8Update_Book_Stock.Designer.cs">
+      <DependentUpon>Form8Update_Book_Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9Free_Book_Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9Free_Book_Search.Designer.cs">
+      <DependentUpon>Form9Free_Book_Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11ManagerTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11ManagerTask.Designer.cs">
+      <DependentUpon>Form11ManagerTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form10Delete_Book_Stock.resx">
+      <DependentUpon>Form10Delete_Book_Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11ManagerTask.resx">
+      <DependentUpon>Form11ManagerTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12AdminTask.resx">
+      <DependentUpon>Form12AdminTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13_View_All_books.resx">
+      <DependentUpon>Form13_View_All_books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1Home.resx">
+      <DependentUpon>Form1Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2Admin_Log_In.resx">
+      <DependentUpon>Form2Admin_Log_In.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3Manager_Log_In.resx">
+      <DependentUpon>Form3Manager_Log_In.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4New_Manager_Entry.resx">
+      <DependentUpon>Form4New_Manager_Entry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5Manager_Delete.resx">
+      <DependentUpon>Form5Manager_Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6Manager_List.resx">
+      <DependentUpon>Form6Manager_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7New_Book_Entry.resx">
+      <DependentUpon>Form7New_Book_Entry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8Update_Book_Stock.resx">
+      <DependentUpon>Form8Update_Book_Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9Free_Book_Search.resx">
+      <DependentUpon>Form9Free_Book_Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Admin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manager.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

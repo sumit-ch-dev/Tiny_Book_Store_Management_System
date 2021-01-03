@@ -39,7 +39,7 @@ namespace Tiny_Book_Store_Management_System
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(392, 673);
+            this.button1.Location = new System.Drawing.Point(392, 656);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(251, 35);
             this.button1.TabIndex = 1;
@@ -51,7 +51,7 @@ namespace Tiny_Book_Store_Management_System
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Info;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(48, 162);
+            this.dataGridView1.Location = new System.Drawing.Point(49, 115);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(976, 486);
             this.dataGridView1.TabIndex = 2;
@@ -73,7 +73,7 @@ namespace Tiny_Book_Store_Management_System
             this.logout.BackColor = System.Drawing.Color.SeaGreen;
             this.logout.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logout.ForeColor = System.Drawing.Color.Red;
-            this.logout.Location = new System.Drawing.Point(467, 714);
+            this.logout.Location = new System.Drawing.Point(938, 655);
             this.logout.Name = "logout";
             this.logout.Size = new System.Drawing.Size(120, 36);
             this.logout.TabIndex = 28;

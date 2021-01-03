@@ -44,5 +44,10 @@ namespace Tiny_Book_Store_Management_System
             obj.Show();
             this.Hide();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

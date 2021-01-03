@@ -35,7 +35,6 @@ namespace Tiny_Book_Store_Management_System
             this.button3Free_Book_Search = new System.Windows.Forms.Button();
             this.button4Delete_Book_Stock = new System.Windows.Forms.Button();
             this.viewbook = new System.Windows.Forms.Button();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.logout = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -44,7 +43,7 @@ namespace Tiny_Book_Store_Management_System
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.label1.Location = new System.Drawing.Point(446, 116);
+            this.label1.Location = new System.Drawing.Point(446, 78);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(210, 39);
             this.label1.TabIndex = 0;
@@ -53,7 +52,7 @@ namespace Tiny_Book_Store_Management_System
             // button1New_Book_Entry
             // 
             this.button1New_Book_Entry.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1New_Book_Entry.Location = new System.Drawing.Point(226, 276);
+            this.button1New_Book_Entry.Location = new System.Drawing.Point(428, 138);
             this.button1New_Book_Entry.Name = "button1New_Book_Entry";
             this.button1New_Book_Entry.Size = new System.Drawing.Size(253, 45);
             this.button1New_Book_Entry.TabIndex = 1;
@@ -64,7 +63,7 @@ namespace Tiny_Book_Store_Management_System
             // button2Update_Book_Stock
             // 
             this.button2Update_Book_Stock.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2Update_Book_Stock.Location = new System.Drawing.Point(226, 430);
+            this.button2Update_Book_Stock.Location = new System.Drawing.Point(428, 298);
             this.button2Update_Book_Stock.Name = "button2Update_Book_Stock";
             this.button2Update_Book_Stock.Size = new System.Drawing.Size(253, 47);
             this.button2Update_Book_Stock.TabIndex = 2;
@@ -75,9 +74,9 @@ namespace Tiny_Book_Store_Management_System
             // button3Free_Book_Search
             // 
             this.button3Free_Book_Search.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3Free_Book_Search.Location = new System.Drawing.Point(597, 276);
+            this.button3Free_Book_Search.Location = new System.Drawing.Point(428, 223);
             this.button3Free_Book_Search.Name = "button3Free_Book_Search";
-            this.button3Free_Book_Search.Size = new System.Drawing.Size(247, 45);
+            this.button3Free_Book_Search.Size = new System.Drawing.Size(253, 45);
             this.button3Free_Book_Search.TabIndex = 3;
             this.button3Free_Book_Search.Text = "Free Book Search";
             this.button3Free_Book_Search.UseVisualStyleBackColor = true;
@@ -86,9 +85,9 @@ namespace Tiny_Book_Store_Management_System
             // button4Delete_Book_Stock
             // 
             this.button4Delete_Book_Stock.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4Delete_Book_Stock.Location = new System.Drawing.Point(597, 430);
+            this.button4Delete_Book_Stock.Location = new System.Drawing.Point(428, 377);
             this.button4Delete_Book_Stock.Name = "button4Delete_Book_Stock";
-            this.button4Delete_Book_Stock.Size = new System.Drawing.Size(247, 47);
+            this.button4Delete_Book_Stock.Size = new System.Drawing.Size(253, 47);
             this.button4Delete_Book_Stock.TabIndex = 4;
             this.button4Delete_Book_Stock.Text = "Delete Book Stock";
             this.button4Delete_Book_Stock.UseVisualStyleBackColor = true;
@@ -97,21 +96,13 @@ namespace Tiny_Book_Store_Management_System
             // viewbook
             // 
             this.viewbook.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.viewbook.Location = new System.Drawing.Point(403, 519);
+            this.viewbook.Location = new System.Drawing.Point(428, 452);
             this.viewbook.Name = "viewbook";
             this.viewbook.Size = new System.Drawing.Size(253, 47);
             this.viewbook.TabIndex = 2;
             this.viewbook.Text = "View All Books";
             this.viewbook.UseVisualStyleBackColor = true;
             this.viewbook.Click += new System.EventHandler(this.viewbook_Click);
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.LightGray;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(48, 167);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1015, 10);
-            this.flowLayoutPanel1.TabIndex = 8;
             // 
             // logout
             // 
@@ -130,10 +121,9 @@ namespace Tiny_Book_Store_Management_System
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Desktop;
-            this.ClientSize = new System.Drawing.Size(1084, 761);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(1084, 752);
             this.Controls.Add(this.logout);
-            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.button4Delete_Book_Stock);
             this.Controls.Add(this.button3Free_Book_Search);
             this.Controls.Add(this.viewbook);
@@ -155,7 +145,6 @@ namespace Tiny_Book_Store_Management_System
         private System.Windows.Forms.Button button3Free_Book_Search;
         private System.Windows.Forms.Button button4Delete_Book_Stock;
         private System.Windows.Forms.Button viewbook;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button logout;
     }
 }
